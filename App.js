@@ -95,12 +95,14 @@ const styles = StyleSheet.create({
   },
   body: {
     backgroundColor: Theme.colors.white,
+    ...Theme.font.body,
   },
   sectionContainer: {
     marginTop: 32,
     paddingHorizontal: 24,
   },
   sectionTitle: {
+    ...Theme.font.heading,
     fontSize: 24,
     fontWeight: '600',
     color: Theme.colors.black,
