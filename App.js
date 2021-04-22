@@ -19,12 +19,13 @@ import {
 import {
   Header,
   LearnMoreLinks,
-  Colors,
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
 import Sidebar from './app/components/Sidebar';
+import { Theme } from 'Config';
+
 const App: () => React$Node = () => {
   return (
     <>
