@@ -87,14 +87,14 @@ const styles = StyleSheet.create({
   },
   scrollView: {
     flex: 2,
-    backgroundColor: Colors.lighter,
+    backgroundColor: Theme.colors.lighter,
   },
   engine: {
     position: 'absolute',
     right: 0,
   },
   body: {
-    backgroundColor: Colors.white,
+    backgroundColor: Theme.colors.white,
   },
   sectionContainer: {
     marginTop: 32,
@@ -103,19 +103,20 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 24,
     fontWeight: '600',
-    color: Colors.black,
+    color: Theme.colors.black,
   },
   sectionDescription: {
     marginTop: 8,
     fontSize: 18,
     fontWeight: '400',
-    color: Colors.dark,
+    color: Theme.colors.dark,
   },
   highlight: {
     fontWeight: '700',
+    color: Theme.colors.dark,
   },
   footer: {
-    color: Colors.dark,
+    color: Theme.colors.dark,
     fontSize: 12,
     fontWeight: '600',
     padding: 4,
