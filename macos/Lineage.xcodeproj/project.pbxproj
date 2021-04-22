@@ -18,6 +18,8 @@
 		514201582437B4B40078DB4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 514201572437B4B40078DB4F /* main.m */; };
 		A8168AFDFBD47344707C4AE8 /* libPods-Lineage-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B528261D241F7072EC54D35F /* libPods-Lineage-iOS.a */; };
 		F509A6F3B65C1D48739E3844 /* libPods-Lineage-macOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A36F56C3CF91AA9D3EFD8B4 /* libPods-Lineage-macOS.a */; };
+		FA16BAFF262FB92000A73396 /* SidebarViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA16BAFD262FB92000A73396 /* SidebarViewManager.m */; };
+		FA16BB00262FB92000A73396 /* SidebarView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA16BAFE262FB92000A73396 /* SidebarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,10 @@
 		CE0E74F571E1F48FF00A8324 /* Pods-Shared-Lineage-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-Lineage-macOS.release.xcconfig"; path = "Target Support Files/Pods-Shared-Lineage-macOS/Pods-Shared-Lineage-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		FA16BAFB262FB92000A73396 /* SidebarViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewManager.h; sourceTree = "<group>"; };
+		FA16BAFC262FB92000A73396 /* SidebarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarView.h; sourceTree = "<group>"; };
+		FA16BAFD262FB92000A73396 /* SidebarViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewManager.m; sourceTree = "<group>"; };
+		FA16BAFE262FB92000A73396 /* SidebarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,10 @@
 				514201512437B4B40078DB4F /* Assets.xcassets */,
 				514201532437B4B40078DB4F /* Main.storyboard */,
 				514201562437B4B40078DB4F /* Info.plist */,
+				FA16BAFC262FB92000A73396 /* SidebarView.h */,
+				FA16BAFE262FB92000A73396 /* SidebarView.m */,
+				FA16BAFB262FB92000A73396 /* SidebarViewManager.h */,
+				FA16BAFD262FB92000A73396 /* SidebarViewManager.m */,
 				514201572437B4B40078DB4F /* main.m */,
 				514201592437B4B40078DB4F /* Lineage.entitlements */,
 			);
@@ -433,6 +443,8 @@
 				514201502437B4B30078DB4F /* ViewController.m in Sources */,
 				514201582437B4B40078DB4F /* main.m in Sources */,
 				5142014D2437B4B30078DB4F /* AppDelegate.m in Sources */,
+				FA16BAFF262FB92000A73396 /* SidebarViewManager.m in Sources */,
+				FA16BB00262FB92000A73396 /* SidebarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,7 +605,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
@@ -647,7 +659,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
