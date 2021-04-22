@@ -23,7 +23,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import Sidebar from './app/components/Sidebar';
+import { Sidebar, Button } from 'Components';
 import { Theme } from 'Config';
 
 const App: () => React$Node = () => {
