@@ -24,11 +24,15 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import Sidebar from './app/components/Sidebar';
 const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
+      <SafeAreaView style={styles.container}>
+        <Sidebar style={styles.sidebar}>
+          <Text style={styles.sectionDescription}>Add Source</Text>
+        </Sidebar>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
@@ -73,7 +77,15 @@ const App: () => React$Node = () => {
 };
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: 'row',
+  },
+  sidebar: {
+    flex: 1,
+  },
   scrollView: {
+    flex: 2,
     backgroundColor: Colors.lighter,
   },
   engine: {
