@@ -19,12 +19,12 @@ export default {
     lineHeight: Size.s6,
   },
   title: {
-    fontFamily: Platform.OS === 'macos' ? "Baskerville" : "Century Schoolbook",
+    fontFamily: Platform.OS === 'macos' || 'ios' ? "Baskerville" : "Century Schoolbook",
     fontSize: Size.s7,
     lineHeight: Size.s8,
   },
   heading: {
-    fontFamily: Platform.OS === 'macos' ? "Baskerville" : "Century Schoolbook",
+    fontFamily: Platform.OS === 'macos' || 'ios' ? "Baskerville" : "Century Schoolbook",
     fontSize: Size.s6,
     lineHeight: Size.s7,
   }
