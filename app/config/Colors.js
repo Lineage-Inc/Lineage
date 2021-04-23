@@ -11,7 +11,7 @@
 'use strict';
 
 export default {
-  primary: '#009444',
+  primary: '#498205',
   white: '#FFF',
   lighter: '#F3F3F3',
   light: '#DAE1E7',
