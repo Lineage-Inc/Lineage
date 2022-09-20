@@ -1,4 +1,5 @@
 import Sidebar from './Sidebar';
 import Button from './Button';
+import Nav from './Nav';
 
-export { Sidebar, Button };
+export { Sidebar, Button, Nav };
