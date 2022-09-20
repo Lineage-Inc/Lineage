@@ -1,4 +1,4 @@
-Lineage [![Build Status](https://travis-ci.org/lineage/lineage.svg?branch=master)](https://travis-ci.org/lineage/lineage)[![codecov.io](https://codecov.io/github/lineage-inc/lineage/coverage.svg?branch=master)](https://codecov.io/github/lineage-inc/lineage?branch=master)
+Lineage [![Build Status](https://travis-ci.com/lineage/lineage.svg?branch=master)](https://travis-ci.org/lineage/lineage)[![codecov.io](https://codecov.io/github/lineage-inc/lineage/coverage.svg?branch=master)](https://codecov.io/github/lineage-inc/lineage?branch=master)
 ===================
 Our goal is to produce genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists.
 
@@ -9,3 +9,7 @@ Our goal is to produce genealogy software that is both intuitive for hobbyists a
 3. Open terminal, go to the project directory and run `cd macos` and then `pod install`
 4. In Finder, go to Lineage/macos and open `Lineage.xcworkspace` in Xcode
 5. From Xcode, you can click run (the play button) to build Lineage
+
+## Special Thanks
+* [Edvinas Bartkus](https://twitter.com/edvinasbartkus)
+* [Lu Yibin](https://github.com/robin)
