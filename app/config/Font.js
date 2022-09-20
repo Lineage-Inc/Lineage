@@ -12,9 +12,16 @@
 
 import Size from './Size';
 
+const fontFamily = Platform.select({
+  android: 'sans-serif',
+  ios: "-apple-system, BlinkMacSystemFont",
+  macos: "-apple-system, BlinkMacSystemFont",
+  windows: 'Century Schoolbook',
+});
+
 export default {
   body: {
-    fontFamily: "-apple-system, BlinkMacSystemFont",
+    fontFamily,
     fontSize: Size.s5,
     lineHeight: Size.s6,
   },
