@@ -10,11 +10,29 @@
 
 'use strict';
 
-export default {
-  primary: '#498205',
-  white: '#FFF',
-  lighter: '#F3F3F3',
-  light: '#DAE1E7',
-  dark: '#444',
-  black: '#000',
+import Palette from './ColorScheme';
+
+const colors: Colors = {
+  container: {
+    backgroundColor: Palette.background,
+  },
+  scrollView: {
+    backgroundColor: Palette.background,
+  },
+  body: {
+    backgroundColor: Palette.surface,
+    borderWidth: 1,
+    borderColor: Palette.borderColor,
+  },
+  sectionTitle: {
+    color: Palette.titleText,
+  },
+  sectionDescription: {
+    color: Palette.bodyText,
+  },
+  highlight: {
+    color: Palette.bodyTextHighlight,
+  },
 };
+
+export default colors;
