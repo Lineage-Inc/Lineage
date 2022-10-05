@@ -1,4 +1,4 @@
-Lineage &middot; [![CircleCI Status](https://circleci.com/gh/facebook/react.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/Lineage-Inc/Lineage) [![codecov.io](https://codecov.io/github/lineage-inc/lineage/coverage.svg?branch=master)](https://codecov.io/github/lineage-inc/lineage?branch=master)
+Lineage &middot; [![CircleCI](https://dl.circleci.com/status-badge/img/gh/Lineage-Inc/Lineage/tree/master.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/Lineage-Inc/Lineage/tree/master) [![codecov.io](https://codecov.io/github/Lineage-Inc/Lineage/coverage.svg?branch=master)](https://codecov.io/github/lineage-inc/lineage?branch=master)
 ===================
 Our goal is to produce genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists.
 
