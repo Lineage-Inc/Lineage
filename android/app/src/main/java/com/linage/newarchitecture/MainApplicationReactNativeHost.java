@@ -1,4 +1,4 @@
-package com.linage.newarchitecture;
+package com.lineage.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.linage.BuildConfig;
-import com.linage.newarchitecture.components.MainComponentsRegistry;
-import com.linage.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.lineage.BuildConfig;
+import com.lineage.newarchitecture.components.MainComponentsRegistry;
+import com.lineage.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

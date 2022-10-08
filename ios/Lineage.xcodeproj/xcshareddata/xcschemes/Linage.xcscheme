@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "Linage.app"
-               BlueprintName = "Linage"
-               ReferencedContainer = "container:Linage.xcodeproj">
+               BuildableName = "Lineage.app"
+               BlueprintName = "Lineage"
+               ReferencedContainer = "container:Lineage.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "LinageTests.xctest"
-               BlueprintName = "LinageTests"
-               ReferencedContainer = "container:Linage.xcodeproj">
+               BuildableName = "LineageTests.xctest"
+               BlueprintName = "LineageTests"
+               ReferencedContainer = "container:Lineage.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Linage.app"
-            BlueprintName = "Linage"
-            ReferencedContainer = "container:Linage.xcodeproj">
+            BuildableName = "Lineage.app"
+            BlueprintName = "Lineage"
+            ReferencedContainer = "container:Lineage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Linage.app"
-            BlueprintName = "Linage"
-            ReferencedContainer = "container:Linage.xcodeproj">
+            BuildableName = "Lineage.app"
+            BlueprintName = "Lineage"
+            ReferencedContainer = "container:Lineage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

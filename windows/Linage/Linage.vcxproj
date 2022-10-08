@@ -7,8 +7,8 @@
     <CppWinRTRootNamespaceAutoMerge>true</CppWinRTRootNamespaceAutoMerge>
     <MinimalCoreWin>true</MinimalCoreWin>
     <ProjectGuid>{90cb7860-dc30-4f90-8cc9-7b12ca3b9564}</ProjectGuid>
-    <ProjectName>Linage</ProjectName>
-    <RootNamespace>Linage</RootNamespace>
+    <ProjectName>Lineage</ProjectName>
+    <RootNamespace>Lineage</RootNamespace>
     <DefaultLanguage>en-US</DefaultLanguage>
     <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
     <AppContainerApplication>true</AppContainerApplication>
