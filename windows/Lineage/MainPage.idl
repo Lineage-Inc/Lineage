@@ -1,8 +1,0 @@
-namespace Lineage
-{
-    [default_interface]
-    runtimeclass MainPage : Microsoft.UI.Xaml.Controls.Page
-    {
-        MainPage();
-    }
-}
