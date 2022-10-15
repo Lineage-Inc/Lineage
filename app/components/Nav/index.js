@@ -1,12 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Image, Text, View, Pressable } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
+import { View, Pressable } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { Icon } from '../../../storybook/stories/Icon';
+import { Typography } from '../../../storybook/stories/Typography';
 import styles from './styles';
 
-const Nav = ({ title, accessibilityLabel, screenName }) => {
-  const navigation = useNavigation();
-
+export const Nav = ({
+  navigation,
+  title,
+  symbol,
+  accessibilityLabel,
+  screenName
+}) => {
   return (
     <Pressable
       accessibilityLabel={accessibilityLabel}
@@ -16,14 +23,8 @@ const Nav = ({ title, accessibilityLabel, screenName }) => {
       })}
     >
       <View style={styles.nav}>
-        <Image
-        style={styles.navIcon}
-        source={{
-          uri: 'https://via.placeholder.com/21/009444/FFFFFF?Text=➕',
-        }} />
-        <Text style={styles.navText}>
-          {title}
-        </Text>
+        <Icon symbol={symbol} style={styles.navIcon} iconColor='#498205' />
+        <Typography variant="default" size="6" style={styles.navText}>{title}</Typography>
       </View>
     </Pressable>
   );
@@ -41,5 +42,3 @@ Nav.defaultProps = {
   // eslint-disable-next-line no-console
   onPress: () => console.log(`Nav Pressed: ${screenName}`),
 };
-
-export default Nav;
