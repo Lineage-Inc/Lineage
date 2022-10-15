@@ -25,43 +25,61 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import useCachedResources from './app/hooks/useCachedResources';
+
+import Welcome from './storybook/stories/Welcome'
+
+const Stack = createNativeStackNavigator();
 
 /* $FlowFixMe[missing-local-annot] The type annotation(s) required by Flow's
  * LTI update could not be added via codemod */
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
   return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen name="Home" component={Welcome} />
+        <Stack.Screen name="Details" component={Welcome} />
+      </Stack.Navigator>
+
+      <View style={styles.sectionContainer}>
+        <Text
+          style={[
+            styles.sectionTitle,
+            {
+              color: isDarkMode ? Colors.white : Colors.black,
+            },
+          ]}>
+          {title}
+        </Text>
+        <Text
+          style={[
+            styles.sectionDescription,
+            {
+              color: isDarkMode ? Colors.light : Colors.dark,
+            },
+          ]}>
+          {children}
+        </Text>
+      </View>
+    </NavigationContainer>
   );
 };
 
 const App: () => Node = () => {
+  const isLoadingComplete = useCachedResources();
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
-  return (
+  if (!isLoadingComplete) {
+    return null;
+  } else {
+    return (
     <SafeAreaView style={backgroundStyle}>
       <StatusBar
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
@@ -92,7 +110,8 @@ const App: () => Node = () => {
         </View>
       </ScrollView>
     </SafeAreaView>
-  );
+    );
+  }
 };
 
 const styles = StyleSheet.create({
