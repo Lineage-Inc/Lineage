@@ -54,6 +54,7 @@
     "metro-config": "^0.72.3",
     "metro-react-native-babel-preset": "0.72.3",
     "react-dom": "18.1.0",
+    "react-native-asset": "^2.0.1",
     "react-test-renderer": "18.1.0",
     "typescript": "^4.8.4"
   },
