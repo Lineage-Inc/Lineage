@@ -55,7 +55,7 @@ export default StyleSheet.create({
 	heading5: {
 		fontSize: 17,
 		lineHeight: 24,
-		letterSpacing: 4,
+		letterSpacing: -0.31,
 		textTransform: 'uppercase',
 	},
 	heading6: {
