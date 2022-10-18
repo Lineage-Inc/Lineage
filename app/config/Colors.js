@@ -12,7 +12,7 @@
 
 import Palette from './ColorScheme';
 
-const colors: Colors = {
+const Colors = {
   container: {
     backgroundColor: Palette.background,
   },
@@ -35,4 +35,4 @@ const colors: Colors = {
   },
 };
 
-export default colors;
+export default Colors;
