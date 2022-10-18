@@ -26,5 +26,6 @@ export default StyleSheet.create({
     fontSize: Theme.size.s6,
     lineHeight: Theme.size.s7,
     fontWeight: '400',
+    letterSpacing: -0.31,
   },
 });
