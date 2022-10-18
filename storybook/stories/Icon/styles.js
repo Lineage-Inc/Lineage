@@ -8,7 +8,7 @@ export default StyleSheet.create({
 		fontSize: 12,
 	},
 	medium: {
-		fontSize: 24,
+		fontSize: 21,
 	},
 	large: {
 		fontSize: 36,
