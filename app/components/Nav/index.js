@@ -9,7 +9,7 @@ import styles from './styles';
 
 export const Nav = ({
   navigation,
-  title,
+  text,
   symbol,
   accessibilityLabel,
   screenName
@@ -21,17 +21,28 @@ export const Nav = ({
       onPress={() => navigation.navigate(screenName, {
         name: screenName,
       })}
-    >
+      style={({ pressed }) => [
+          {
+            backgroundColor: pressed
+              ? '#ecece9'
+              : 'transparent'
+          },
+          styles.wrapperCustom
+      ]}>
       <View style={styles.nav}>
-        <Icon symbol={symbol} style={styles.navIcon} iconColor='#498205' />
-        <Typography variant="default" size="6" style={styles.navText}>{title}</Typography>
+        <View style={styles.navIcon}>
+          <Icon symbol={symbol} iconColor='#498205' />
+        </View>
+        <View style={styles.navText}>
+          <Typography variant="default" size="6" text={text} />
+        </View>
       </View>
     </Pressable>
   );
 };
 
 Nav.propTypes = {
-  title: PropTypes.string,
+  text: PropTypes.string,
   accessibilityLabel: PropTypes.string,
   accessibilityRole: PropTypes.string,
   onPress: PropTypes.func,
