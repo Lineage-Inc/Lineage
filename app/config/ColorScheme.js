@@ -6,7 +6,7 @@ const INHERIT_SYSTEM_KEY = 'theme.inherit_system';
 
 const palette = {
   primary: {
-    050: '#f3faea',
+    50: '#f3faea',
     200: '#cee5b3',
     350: '#abe16a',
     500: '#498205',
@@ -14,7 +14,7 @@ const palette = {
     800: '#264500',
   },
   secondary: {
-    050: '#ffece5',
+    50: '#ffece5',
     200: '#ebbead',
     350: '#d49078',
     500: '#ad6044',
@@ -24,8 +24,8 @@ const palette = {
   transparent: 'transparent',
   white: '#fff',
   neutral: {
-    020: '#fbfaf9',
-    080: '#ecebe9',
+    20: '#fbfaf9',
+    80: '#ecebe9',
     160: '#d9d8d4',
     240: '#c4c3c0',
     320: '#b0afab',
@@ -39,7 +39,7 @@ const palette = {
   },
   black: '#0a0a0a',
   success: {
-    050: '#eaf5fa',
+    50: '#eaf5fa',
     200: '#bbd1dc',
     350: '#8cadbf',
     500: '#5e8aa1',
@@ -47,7 +47,7 @@ const palette = {
     800: '#004266',
   },
   warning: {
-    050: '#fafbcf',
+    50: '#fafbcf',
     200: '#ebe8b7',
     350: '#dcd49f',
     500: '#7f7750',
@@ -55,7 +55,7 @@ const palette = {
     800: '#473e1f',
   },
   error: {
-    050: '#faeaea',
+    50: '#faeaea',
     200: '#eeaaaa',
     350: '#db7171',
     500: '#c83737',
@@ -82,7 +82,7 @@ const DARK_THEME = {
 const LIGHT_THEME = {
   dark: false,
   appbarTint: palette.primary[650],
-  background: palette.neutral[020],
+  background: palette.neutral[20],
   surface: palette.neutral[160],
   border: palette.neutral[240],
   titleText: palette.neutral[640],
