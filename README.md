@@ -10,6 +10,9 @@ Our goal is to produce genealogy software that is both intuitive for hobbyists a
 4. In Finder, go to Lineage/macos and open `Lineage.xcworkspace` in Xcode
 5. From Xcode, you can click run (the play button) to build Lineage
 
+### Windows
+TBD
+
 ## Special Thanks
 * [Edvinas Bartkus](https://twitter.com/edvinasbartkus)
 * [Lu Yibin](https://github.com/robin)
