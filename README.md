@@ -1,6 +1,6 @@
 Lineage &middot; [![CircleCI](https://dl.circleci.com/status-badge/img/gh/Lineage-Inc/Lineage/tree/master.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/Lineage-Inc/Lineage/tree/master) [![codecov.io](https://codecov.io/github/Lineage-Inc/Lineage/coverage.svg?branch=master)](https://codecov.io/github/lineage-inc/lineage?branch=master)
 ===================
-Our goal is to produce genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists.
+Our goal is to produce open-source genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists.
 
 ## Build
 ### macOS
